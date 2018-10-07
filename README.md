@@ -16,12 +16,12 @@ A full description is available at the [website](http://archive.ics.uci.edu/ml/d
 
 - `README.md`, this file, which gives an overview of the project and explains the connection of all the files in the repo.
 - `run_analysis.R`, R script, which provides performing the analysis as following:
-1. Retrives the data and load into R.
-2. Merges the training and the test sets to create one data set.
-3. Extracts only the measurements on the mean and standard deviation for each measurement.
-4. Uses descriptive activity names to name the activities in the data set.
-5. Appropriately labels the data set with descriptive variable names.
-6. From the data set in step 5, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  1. Retrives the data and load into R.
+  2. Merges the training and the test sets to create one data set.
+  3. Extracts only the measurements on the mean and standard deviation for each measurement.
+  4. Uses descriptive activity names to name the activities in the data set.
+  5. Appropriately labels the data set with descriptive variable names.
+  6. From the data set in step 5, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 - `tidy_data.txt`, the tidy data set file .
 - `CodeBook.md`, the code book file, which describes the contents of the tidy data set(variables, the data, and transformations used to generate the data).
 
