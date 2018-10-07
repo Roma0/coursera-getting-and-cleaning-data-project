@@ -10,18 +10,18 @@ In this poject, the source data was collected from the accelerometers from the S
 
 > The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-A full description is available at the [website] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) where the [source data] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) was obtained. 
+A full description is available at the [website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) where the [source data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) was obtained. 
 
 ## This repository contains the following files:
 
 - `README.md`, this file, which gives an overview of the project and explains the connection of all the files in the repo.
 - `run_analysis.R`, R script, which provides performing the analysis as following:
 	1. Retrives the data and load into R.
-	2. Merges the training and the test sets to create one data set.
-	3. Extracts only the measurements on the mean and standard deviation for each measurement.
-	4. Uses descriptive activity names to name the activities in the data set.
-	5. Appropriately labels the data set with descriptive variable names.
-	6. From the data set in step 5, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+	1. Merges the training and the test sets to create one data set.
+	1. Extracts only the measurements on the mean and standard deviation for each measurement.
+	1. Uses descriptive activity names to name the activities in the data set.
+	1. Appropriately labels the data set with descriptive variable names.
+	1. From the data set in step 5, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 - `tidy_data.txt`, the tidy data set file .
 - `CodeBook.md`, the code book file, which describes the contents of the tidy data set(variables, the data, and transformations used to generate the data).
 
